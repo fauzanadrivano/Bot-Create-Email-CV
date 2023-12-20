@@ -8,4 +8,4 @@ googleapis-common-protos
 requests
 google.generativeai
 python-docx
-googletrans
+googletrans==4.0.0
