@@ -7,5 +7,5 @@ google-resumable-media
 googleapis-common-protos
 requests
 google.generativeai
-python-docx==
-googletrans==
+python-docx
+googletrans
