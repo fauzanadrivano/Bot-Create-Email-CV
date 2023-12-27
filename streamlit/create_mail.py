@@ -173,6 +173,11 @@ else:
     st.text("'write cv', 'compose cv', 'create cv'")
     st.text(" ")
 
+st.sidebar.markdown(
+    '<div style="position: fixed; bottom: 0; left: 0; width: 100%; padding: 10px; font-size: 15px; color: #ffff; box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1); display: flex; align-items: center; justify-content: flex-start;"><img src="https://cdn-icons-png.flaticon.com/512/106/106852.png" style="width: 20px; margin-right: 5px;"> Copyright by Hunian Brutal</div>',
+    unsafe_allow_html=True
+)
+
 user_input = st.text_input("Prompt : ")
 language_choice = st.selectbox("Select Language for Translation:", ("Indonesian", "English", "Spanish", "French", "Hindi", "Russian", "Italian", "Portuguese", "Arabic", "Mandarin"))
 submit_button = st.button("Submit")
