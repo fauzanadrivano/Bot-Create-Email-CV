@@ -17,13 +17,16 @@ To run the application locally, follow these steps:
    ```bash
    git clone https://github.com/fauzanadrivano/Bot-Create-Email-CV.git
    cd Bot-Create-Email-CV
+   
 2. **Install Dependencies:**
    Ensure you have Python installed, then install the required packages using pip:
    ```bash
    pip install -r requirements.txt
+
 3. **Set Up Google PaLM API:**
    - Obtain an API key from the Google Cloud Platform for PaLM (Pathways Language Model).
    - Update the palm.configure(api_key="YOUR_API_KEY") line in the code with your API key.
+     
 4. **Run the Application:**
    ```bash
    streamlit run app.py
@@ -46,5 +49,9 @@ To run the application locally, follow these steps:
   
 ## Languages Supported
 
-*Indonesian, English, Spanish, French, Hindi, Russian, Italian, Portuguese, Arabic, Mandarin
+ - Indonesian, English, Spanish, French, Hindi, Russian, Italian, Portuguese, Arabic, Mandarin
 
+## Acknowledgements
+- Streamlit: For providing a simple yet powerful framework for creating web applications in Python.
+- Google PaLM: For the generative AI capabilities to create emails and CVs.
+- Google Translate: For the multilingual translation features.
