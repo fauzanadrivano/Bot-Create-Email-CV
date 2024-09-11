@@ -17,3 +17,8 @@ To run the application locally, follow these steps:
    ```bash
    git clone https://github.com/fauzanadrivano/Bot-Create-Email-CV.git
    cd Bot-Create-Email-CV
+2. **Install Dependencies:**
+   Ensure you have Python installed, then install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+
